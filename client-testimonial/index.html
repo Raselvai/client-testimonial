@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="app, landing, corporate, Creative, Html Template, Template">
+    <meta name="author" content="web-themes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title>client testimonial</title>
+
+    <!-- favicon -->
+    <!-- <link href="img/favicon.png" type="image/png" rel="icon"> -->
+
+    <!-- all css here -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/slick.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <!-- slider area start -->
+    <div class="slider-wrapper">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h2 class="head-text">Our TOP Amazon Clients</h2>
+                    <span class="line-dot"></span>
+                </div>
+                <div class="col-8">
+                    <div class="positon-relative">
+                        <div class="top-amazon-sub-active">
+                            <img class="img-fluid" src="img/slide-sub-img-01.png" alt="">
+                            <img class="img-fluid" src="img/slide-sub-img-02.png" alt="">
+                            <img class="img-fluid" src="img/slide-sub-img-03.png" alt="">
+                        </div>
+                        <div class="top-amazon-active">
+                            <div class="top-amazon-box text-center positon-relative">
+                                <div class="queto-box position-absolute">
+                                    <img class="img-fluid" src="img/queto-icon.png" alt="">
+                                </div>
+                                <img class="img-fluid slide-top-img" src="img/slide-top-img-01.png" alt="">
+                                <h2>“We have been attacked by our competitor We have ordered for Amazon<br>  Negative Review Removal service from Virtual Experts they help us within 72 <br>  hours.”</h2>
+                                <h4>Benjamin Arneberg</h4>
+                                <span>CEO of PetHonesty</span>
+                            </div>
+                            <div class="top-amazon-box text-center positon-relative">
+                                <div class="queto-box position-absolute">
+                                    <img class="img-fluid" src="img/queto-icon.png" alt="">
+                                </div>
+                                <img class="img-fluid slide-top-img" src="img/slide-top-img-02.png" alt="">
+                                <h2>“We have been attacked by our competitor We have ordered for Amazon<br>  Negative Review Removal service from Virtual Experts they help us within 72 <br>  hours.”</h2>
+                                <h4>Benjamin Arneberg</h4>
+                                <span>CEO of PetHonesty</span>
+                            </div>
+                            <div class="top-amazon-box text-center positon-relative">
+                                <div class="queto-box position-absolute">
+                                    <img class="img-fluid" src="img/queto-icon.png" alt="">
+                                </div>
+                                <img class="img-fluid slide-top-img" src="img/slide-top-img-03.png" alt="">
+                                <h2>“We have been attacked by our competitor We have ordered for Amazon<br>  Negative Review Removal service from Virtual Experts they help us within 72 <br>  hours.”</h2>
+                                <h4>Benjamin Arneberg</h4>
+                                <span>CEO of PetHonesty</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider area end -->
+
+    
+    <!-- all js here -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        
+        $('.top-amazon-active').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: '.top-amazon-sub-active'
+        });
+        $('.top-amazon-sub-active').slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          asNavFor: '.top-amazon-active',
+          dots: false,
+          centerMode: true,
+          arrows: false,
+          focusOnSelect: true
+        });
+
+    </script>
+</body>
+</html>

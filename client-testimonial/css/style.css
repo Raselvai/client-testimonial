@@ -1,0 +1,153 @@
+/*======================
+   01. Google fonts
+========================*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+
+/*======================
+   02. Basic css
+========================*/
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 26px;
+	background: linear-gradient(116.2deg, #FF2F6F 30.26%, #8F41FF 85.45%);
+	color: #fbfbfb;
+	font-family: 'Roboto Slab', serif;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+
+.slider-wrapper {
+	padding: 80px 0;
+}
+
+.line-dot {
+	width: 40px;
+	height: 5px;
+	background: #FF9F26;
+	display: inline-block;
+}
+
+.top-amazon-box {
+	 margin: 50px;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 25px 59px rgb(148 150 156 / 25%);
+    width: 700px !important;
+    background: linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+}
+
+.queto-box {
+    width: 80px;
+    height: 80px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(262.63deg, #FE9A1A 0%, #FF1E74 100%);
+    border-radius: 10px;
+    top: 90px;
+    left: 30px;
+}
+
+.slide-top-img {
+	 width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #FF1E74;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.top-amazon-box h2 {
+	 font-size: 14px;
+    font-style: italic;
+    color: #ffffff;
+    line-height: 32px;
+    padding: 30px 0;
+}
+
+.top-amazon-box h4 {
+	 ont-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.top-amazon-box span {
+	 font-size: 14px;
+    font-weight: 500;
+    color: #ebebec;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.top-amazon-sub-active {
+    position: absolute !important;
+    right: 35px;
+    bottom: 35px;
+    width: 50px;
+}
+
+.top-amazon-sub-active img {
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.top-amazon-sub-active .slick-current.slick-center img {
+    border: 3px solid #FF1E74;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.top-amazon-sub-active .slick-slide {
+    width: 50px !important;
+}
+
+.top-amazon-sub-active .slick-track, .top-amazon-sub-active .slick-list {
+    display: flex !important;
+    flex-direction: column !important;
+    padding-top: 10px;
+    z-index: 9;
+}
+
+    
